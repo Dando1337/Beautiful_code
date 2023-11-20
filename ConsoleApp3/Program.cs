@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Введите X1 заданного уравнения");
+﻿Console.BackgroundColor = ConsoleColor.Cyan;
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine("Введите X1 заданного уравнения");
 double a = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите X2 заданного уравнения");
 double b = Convert.ToDouble(Console.ReadLine());
