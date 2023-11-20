@@ -5,7 +5,9 @@ double a = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите X2 заданного уравнения");
 double b = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine();
+// Переменная для ответа
 double answer = 1;
+// Переменная для минимального числа
 double min = 0;
 double f;
 double f2;
